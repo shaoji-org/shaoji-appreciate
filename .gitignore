@@ -20,3 +20,6 @@
 #IDE
 *.idea
 *.vscode
+
+#config
+.env

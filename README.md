@@ -1,1 +1,4 @@
-# shaoji-approciate
+# shaoji-appreciate
+
+## Architecture
+![](arch.png)

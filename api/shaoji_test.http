@@ -1,0 +1,31 @@
+### CreatShaoJi
+POST http://localhost:3000/api/v1/shaoji
+Content-Type: application/json
+
+{
+  "title": "shaoji",
+  "info": "shaoji test",
+  "url": "https://www.baidu.com"
+}
+
+### ShowShaoJi
+GET http://localhost:3000/api/v1/shaoji/1
+
+### UpdateShaoJi
+PUT http://localhost:3000/api/v1/shaoji/1
+Content-Type: application/json
+
+{
+  "title": "shaoji",
+  "info": "shaoji yyds",
+  "url": "https://www.baidu.com"
+}
+
+### ListShaoJi
+GET http://localhost:3000/api/v1/shaojis
+
+### ListShaoJi 分页
+GET http://localhost:3000/api/v1/shaojis?start=0&limit=1
+
+### DeleteShaoJi
+DELETE http://localhost:3000/api/v1/shaoji/1
